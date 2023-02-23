@@ -9,10 +9,6 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 
-jobs:
-- job: MyJob
-  parallel: none
-
 steps:
 - task: NodeTool@0
   inputs:
