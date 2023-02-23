@@ -11,8 +11,6 @@ pool:
 
 jobs:
 - job: MyJob
-  pool:
-  vmImage: 'ubuntu-latest'
   parallel: none
 
 steps:
